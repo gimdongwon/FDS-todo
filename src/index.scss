@@ -1,5 +1,38 @@
-$main-color: skyblue;
+$main-color: 151515;
+* {
+    color: #181818;
+    box-sizing: border-box
+}
 
 body {
-  background-color: $main-color;
+    background-color: $main-color;
+}
+
+a:link {
+    text-decoration: none;
+    color: #181818;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #181818;
+}
+
+a:active {
+    text-decoration: none;
+    color: #181818;
+}
+
+// a:hover {
+//     text-decoration: underline;
+//     color: red;
+// }
+#id {
+    display: flex;
+    justify-content: flex-start
+}
+
+.title__items {
+    text-decoration: none;
+    display: flex;
 }
